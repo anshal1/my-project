@@ -1,0 +1,40 @@
+#newscontainer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 8rem;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+#newscontainer img {
+  width: 400px;
+  height: 200px;
+}
+#btn {
+  width: 8rem;
+  height: 3rem;
+}
+#mycont {
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+#sec{
+    margin-top: 3rem;
+}
+#btn a {
+    color: white;
+    text-decoration: none;
+}
+#catagories{
+    display: flex;
+    flex-direction: column;
+}
+#catagories a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(0, 102, 255);
+    cursor: pointer;
+}
